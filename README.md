@@ -42,7 +42,7 @@ db.password=sua_senha
 Como Rodar
 Clone:
 
-git clone https://github.com/seu_usuario/seu_projeto.git
+git clone https://github.com/RaulRenshaw/CRUD-com_PostgreSQL.git
 cd seu_projeto
 Configure o banco conforme acima.
 
