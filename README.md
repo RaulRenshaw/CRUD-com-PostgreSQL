@@ -70,8 +70,8 @@ spring.jpa.show-sql=true
 
 Rodando o projeto
 
-git clone https://github.com/RaulRenshaw/CRUD-com-PostgreSQL.git
-cd CRUD-com-PostgreSQL
+git clone https://github.com/RaulRenshaw/Product-Management-JWT.git
+cd Product-Management-JWT
 ./mvnw spring-boot:run
 
 🔐 Rotas de Autenticação
