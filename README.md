@@ -58,15 +58,15 @@ src/
 No arquivo `application.properties`:
 
 ```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/seubanco
-spring.datasource.username=seuusuario
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.username=seunome
 spring.datasource.password=suasenha
+spring.datasource.url=jdbc:postgresql://localhost:5432/meubanco
+spring.jpa.generate-ddl=true
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
-
-jwt.secret=umasecretsecreta
-jwt.expiration=86400000
 
 Rodando o projeto
 
