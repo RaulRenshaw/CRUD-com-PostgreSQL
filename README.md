@@ -67,14 +67,15 @@ spring.jpa.show-sql=true
 
 jwt.secret=umasecretsecreta
 jwt.expiration=86400000
+
 Rodando o projeto
-bash
-Copiar
-Editar
+
 git clone https://github.com/RaulRenshaw/CRUD-com-PostgreSQL.git
 cd CRUD-com-PostgreSQL
 ./mvnw spring-boot:run
+
 🔐 Rotas de Autenticação
+
 POST /auth/register → Registra um novo usuário
 
 POST /auth/login → Login e retorna o token JWT
@@ -86,9 +87,9 @@ Authorization: Bearer SEU_TOKEN_AQUI
 🔄 Rotas de Produto (CRUD)
 GET /produtos → Lista todos os produtos
 
-POST /produtos → Cria um novo produto
+POST api/produtos → Cria um novo produto
 
-DELETE /produtos/{id} → Remove um produto
+DELETE api//produtos/{id} → Remove um produto
 
 Todas essas rotas exigem autenticação JWT.
 
